@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d8e4a66727f3fd076d8e59516eea8eb1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d8e4a66727f3fd076d8e59516eea8eb1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d8e4a66727f3fd076d8e59516eea8eb1 = L.map(
+                "map_d8e4a66727f3fd076d8e59516eea8eb1",
+                {
+                    center: [34.1, -118.4],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2c67f9fb050762a9b48e1bb01426b244 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d8e4a66727f3fd076d8e59516eea8eb1);
+        
+    
+            var marker_cluster_0dac517540643840a982616bad89aee7 = L.markerClusterGroup(
+                {}
+            );
+            map_d8e4a66727f3fd076d8e59516eea8eb1.addLayer(marker_cluster_0dac517540643840a982616bad89aee7);
+        
+    
+            var marker_8dded83ad47c6d2dc35b690100fba3a7 = L.marker(
+                [34.6686, -118.3965],
+                {}
+            ).addTo(marker_cluster_0dac517540643840a982616bad89aee7);
+        
+    
+            var div_icon_d421875bc53fad83cb0b6141d3cd6001 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt; color : blue\"\u003e\u003cb\u003e1\u003c/b\u003e\u003c/div\u003e"});
+            marker_8dded83ad47c6d2dc35b690100fba3a7.setIcon(div_icon_d421875bc53fad83cb0b6141d3cd6001);
+        
+    
+        var popup_e84a0b22bc0aa19f54bad1be6f493393 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57ffb7535964826f988a160473e612ef = $(`<div id="html_57ffb7535964826f988a160473e612ef" style="width: 100.0%; height: 100.0%;">1. Elizabeth Lake & Munz Ranch Road</div>`)[0];
+            popup_e84a0b22bc0aa19f54bad1be6f493393.setContent(html_57ffb7535964826f988a160473e612ef);
+        
+
+        marker_8dded83ad47c6d2dc35b690100fba3a7.bindPopup(popup_e84a0b22bc0aa19f54bad1be6f493393)
+        ;
+
+        
+    
+    
+            marker_8dded83ad47c6d2dc35b690100fba3a7.bindTooltip(
+                `<div>
+                     Elizabeth Lake & Munz Ranch Road
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_846795bc63610cb40ce3a7027b6cf220 = L.marker(
+                [34.7245, -118.4124],
+                {}
+            ).addTo(marker_cluster_0dac517540643840a982616bad89aee7);
+        
+    
+            var div_icon_bddfbebc319c662471e39428ac69c242 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt; color : blue\"\u003e\u003cb\u003e2\u003c/b\u003e\u003c/div\u003e"});
+            marker_846795bc63610cb40ce3a7027b6cf220.setIcon(div_icon_bddfbebc319c662471e39428ac69c242);
+        
+    
+        var popup_a56fb10e1f3339ba4eef8645457e97b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7e7bb51cc79643237cddfac0b887546 = $(`<div id="html_c7e7bb51cc79643237cddfac0b887546" style="width: 100.0%; height: 100.0%;">2. Antelope Valley California Poppy Reserve</div>`)[0];
+            popup_a56fb10e1f3339ba4eef8645457e97b2.setContent(html_c7e7bb51cc79643237cddfac0b887546);
+        
+
+        marker_846795bc63610cb40ce3a7027b6cf220.bindPopup(popup_a56fb10e1f3339ba4eef8645457e97b2)
+        ;
+
+        
+    
+    
+            marker_846795bc63610cb40ce3a7027b6cf220.bindTooltip(
+                `<div>
+                     Antelope Valley California Poppy Reserve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e9bd8f9e81adc321aa3342003105f14 = L.marker(
+                [34.3054, -118.8605],
+                {}
+            ).addTo(marker_cluster_0dac517540643840a982616bad89aee7);
+        
+    
+            var div_icon_0ef8901692706f3dfab4e1e70a5a7b32 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt; color : blue\"\u003e\u003cb\u003e3\u003c/b\u003e\u003c/div\u003e"});
+            marker_9e9bd8f9e81adc321aa3342003105f14.setIcon(div_icon_0ef8901692706f3dfab4e1e70a5a7b32);
+        
+    
+        var popup_39ce35aa71d527535aa1069289c98a0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eac3bc62a80b04aa3b9b0afe3cfc5d4d = $(`<div id="html_eac3bc62a80b04aa3b9b0afe3cfc5d4d" style="width: 100.0%; height: 100.0%;">3. Underwood Family Farms</div>`)[0];
+            popup_39ce35aa71d527535aa1069289c98a0b.setContent(html_eac3bc62a80b04aa3b9b0afe3cfc5d4d);
+        
+
+        marker_9e9bd8f9e81adc321aa3342003105f14.bindPopup(popup_39ce35aa71d527535aa1069289c98a0b)
+        ;
+
+        
+    
+    
+            marker_9e9bd8f9e81adc321aa3342003105f14.bindTooltip(
+                `<div>
+                     Underwood Family Farms
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ac561870ac3bdaecdfcb833152476d5 = L.marker(
+                [33.789, -118.3648],
+                {}
+            ).addTo(marker_cluster_0dac517540643840a982616bad89aee7);
+        
+    
+            var div_icon_312e63466b60690bc30b92582d68740b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt; color : blue\"\u003e\u003cb\u003e4\u003c/b\u003e\u003c/div\u003e"});
+            marker_9ac561870ac3bdaecdfcb833152476d5.setIcon(div_icon_312e63466b60690bc30b92582d68740b);
+        
+    
+        var popup_11bb2eee15bab4d760f86ea92052ad9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e4e8599e7d6d01c8784eec4ef7971ca = $(`<div id="html_5e4e8599e7d6d01c8784eec4ef7971ca" style="width: 100.0%; height: 100.0%;">4. South Coast Botanic Garden</div>`)[0];
+            popup_11bb2eee15bab4d760f86ea92052ad9d.setContent(html_5e4e8599e7d6d01c8784eec4ef7971ca);
+        
+
+        marker_9ac561870ac3bdaecdfcb833152476d5.bindPopup(popup_11bb2eee15bab4d760f86ea92052ad9d)
+        ;
+
+        
+    
+    
+            marker_9ac561870ac3bdaecdfcb833152476d5.bindTooltip(
+                `<div>
+                     South Coast Botanic Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95d666439967cc977ec4d597594886c7 = L.marker(
+                [34.0928, -118.4068],
+                {}
+            ).addTo(marker_cluster_0dac517540643840a982616bad89aee7);
+        
+    
+            var div_icon_b30abe2d9f2eb652c36f7af063da4fe6 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt; color : blue\"\u003e\u003cb\u003e5\u003c/b\u003e\u003c/div\u003e"});
+            marker_95d666439967cc977ec4d597594886c7.setIcon(div_icon_b30abe2d9f2eb652c36f7af063da4fe6);
+        
+    
+        var popup_f71ca141a53699d1641a47da09dd0d06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ba6298cbd0e8151774bf92f2e219cca = $(`<div id="html_5ba6298cbd0e8151774bf92f2e219cca" style="width: 100.0%; height: 100.0%;">5. Franklin Canyon Park</div>`)[0];
+            popup_f71ca141a53699d1641a47da09dd0d06.setContent(html_5ba6298cbd0e8151774bf92f2e219cca);
+        
+
+        marker_95d666439967cc977ec4d597594886c7.bindPopup(popup_f71ca141a53699d1641a47da09dd0d06)
+        ;
+
+        
+    
+    
+            marker_95d666439967cc977ec4d597594886c7.bindTooltip(
+                `<div>
+                     Franklin Canyon Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd2dd48e4f1f9a40cf9f04124323e4ea = L.marker(
+                [34.1036, -118.7128],
+                {}
+            ).addTo(marker_cluster_0dac517540643840a982616bad89aee7);
+        
+    
+            var div_icon_e454bdf568945f885e6f1040fc5139b3 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt; color : blue\"\u003e\u003cb\u003e6\u003c/b\u003e\u003c/div\u003e"});
+            marker_cd2dd48e4f1f9a40cf9f04124323e4ea.setIcon(div_icon_e454bdf568945f885e6f1040fc5139b3);
+        
+    
+        var popup_1739f5699cec4aa0aaf4f8f57944c4fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef7289593cec819b39f32b0562ba6917 = $(`<div id="html_ef7289593cec819b39f32b0562ba6917" style="width: 100.0%; height: 100.0%;">6. Malibu Creek State Park</div>`)[0];
+            popup_1739f5699cec4aa0aaf4f8f57944c4fd.setContent(html_ef7289593cec819b39f32b0562ba6917);
+        
+
+        marker_cd2dd48e4f1f9a40cf9f04124323e4ea.bindPopup(popup_1739f5699cec4aa0aaf4f8f57944c4fd)
+        ;
+
+        
+    
+    
+            marker_cd2dd48e4f1f9a40cf9f04124323e4ea.bindTooltip(
+                `<div>
+                     Malibu Creek State Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
